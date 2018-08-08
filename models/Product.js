@@ -13,7 +13,7 @@ Product.add({
 	price: {type: Number},
 	qty: {type: Number},
 	description: {type: Types.Html, wysiwyg: true, height: 300},
-	image: {type: Type.CloudinaryImage},
+	image: {type: Types.CloudinaryImage},
 	publishedDate: {type: Date, default: Date.now}
 });
 
